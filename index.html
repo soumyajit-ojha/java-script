@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First JS learning</title>
+    <link rel="JavaScript" href="./scripts.js">
+    <style>
+        pre {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            padding: 16px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: Consolas, "Courier New", monospace;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I will Learn JavaScript.</h1>
+
+    <div>
+        <pre>
+            <code>
+    let world = "Global"; // Global Scope
+    function myHouse() {
+        let chair = "Local"; // Function Scope
+        console.log(world); // Works! (World is outside)
+    }
+
+    // console.log(chair); // ERROR! (You can't see the chair from outside the house)
+            </code>
+        </pre>
+    </div>
+    <script src="/scripts.js"></script>
+</body>
+
+</html>
