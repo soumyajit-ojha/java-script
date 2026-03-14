@@ -12,7 +12,7 @@ const userName = "Galileo Galilei";
 // console.log(userAddress);
 // console.log(userAddress[0]);
 
-const myString = "Apple Is Red.";
+const myString = "ABCDabcd";
 
 // 1. String Indexing
 
@@ -30,4 +30,55 @@ const myString = "Apple Is Red.";
 // console.log(myString.slice(0, -1)) // allow -ve indexing
 
 // 5. substring()
-console.log(myString.substring(3))
+// console.log(myString.substring(4, 6))
+
+// toUpperCase()
+// console.log(myString.toUpperCase())
+
+// toLowercase()
+// console.log(myString.toLowerCase())
+
+// trim()
+// console.log(`--${myString.trim()}--`);
+// console.log(`--${myString}--`);
+
+// includes()
+// console.log(myString.includes("dA")); // check exiatance of substring.
+
+// startsWIth()
+// console.log(myString.startsWith("d")); // check the main str start with given sub str.
+
+// endsWith()
+// console.log(myString.endsWith("D"));  // check the main str ends with given sub str.
+
+// indexOf()
+// console.log(myString.indexOf("d")); // if sub str doesnot match return -1 or return the first index.
+
+// lastIndexOf()
+// console.log(myString.lastIndexOf("Az"))  // if sub str doesnot match return -1 or return the last index.
+
+// replace()
+// console.log(myString.replace("ABCD", "WXYZ")); // it replace only first occurance.
+
+// replaceAll()
+// console.log(myString.replaceAll("ABCD", "WXYZ")); // it replace only first occurance.
+
+// split()
+// console.log(myString.split(" "))
+
+// repeat()
+// console.log(myString.repeat(2)); // it create a new str by repeating the original one.
+
+// concat()
+// const st1 = "Hello";
+// let space = " ";
+// const st2 = "World";
+// console.log(st1.concat(space.concat(st2))); // this method merge two string into one.
+
+// match()
+// let st = "Apple43564";
+// console.log(st.match("pple"));  // it return match to pattern if exist
+
+// search()
+// let st = "Apple43564";
+// console.log(st.search("pple"));  // it return the index number of the pattern if exist. not exist -1
